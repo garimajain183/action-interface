@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import ActionBlock from './ActionBlock';
 import TextFieldAction from './TextFieldAction';
-import { State, ActionBlock as ActionBlockType, Action } from '../types';
+import { State, Action } from '../types';
 
 interface LayoutProps {
   state: State;
